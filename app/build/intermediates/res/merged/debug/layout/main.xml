@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:weightSum="1">
+
+	<TableLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textAppearance="@android:style/TextAppearance.Medium"
+				android:text="RAD - 0 - OK"
+				android:id="@+id/txtStatusBar"
+				android:layout_weight="0.04"
+				android:enabled="true"
+				android:focusableInTouchMode="false"
+				android:gravity="top"
+				android:singleLine="false"
+				android:fontFamily="courier new"
+				android:background="#ecfac7"
+				android:foreground="@android:color/holo_blue_light"
+				android:minLines="1"
+				android:maxLines="1"
+				android:typeface="monospace"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text=""
+				android:id="@+id/txtFunction"
+				android:layout_weight="0.04"
+				android:enabled="true"
+				android:focusableInTouchMode="false"
+				android:gravity="top|right"
+				android:singleLine="false"
+				android:fontFamily="courier new"
+				android:background="#ecfac7"
+				android:foreground="#000000"
+				android:minLines="1"
+				android:maxLines="1"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="4:"
+				android:id="@+id/lblLCD4"
+				android:layout_weight="0.04"
+				android:enabled="true"
+				android:focusableInTouchMode="false"
+				android:gravity="top"
+				android:singleLine="false"
+				android:fontFamily="courier new"
+				android:background="#ecfac7"
+				android:foreground="#000000"
+				android:minLines="1"
+				android:maxLines="1"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="0"
+				android:id="@+id/txtLCD4"
+				android:layout_weight="0.04"
+				android:enabled="true"
+				android:focusableInTouchMode="false"
+				android:gravity="top|right"
+				android:singleLine="false"
+				android:fontFamily="courier new"
+				android:background="#ecfac7"
+				android:foreground="#000000"
+				android:minLines="1"
+				android:maxLines="1"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="3:"
+				android:id="@+id/lblLCD3"
+				android:layout_weight="0.04"
+				android:enabled="true"
+				android:focusableInTouchMode="false"
+				android:gravity="top"
+				android:singleLine="false"
+				android:fontFamily="courier new"
+				android:background="#ecfac7"
+				android:foreground="#000000"
+				android:minLines="1"
+				android:maxLines="1"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="0"
+				android:id="@+id/txtLCD3"
+				android:layout_weight="0.04"
+				android:enabled="true"
+				android:focusableInTouchMode="false"
+				android:gravity="top|right"
+				android:singleLine="false"
+				android:fontFamily="courier new"
+				android:background="#ecfac7"
+				android:foreground="#000000"
+				android:minLines="1"
+				android:maxLines="1"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="2:"
+				android:id="@+id/lblLCD2"
+				android:layout_weight="0.04"
+				android:enabled="true"
+				android:focusableInTouchMode="false"
+				android:gravity="top"
+				android:singleLine="false"
+				android:fontFamily="courier new"
+				android:background="#ecfac7"
+				android:foreground="#000000"
+				android:minLines="1"
+				android:maxLines="1"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="0"
+				android:id="@+id/txtLCD2"
+				android:layout_weight="0.04"
+				android:enabled="true"
+				android:focusableInTouchMode="false"
+				android:gravity="top|right"
+				android:singleLine="false"
+				android:fontFamily="courier new"
+				android:background="#ecfac7"
+				android:foreground="#000000"
+				android:minLines="1"
+				android:maxLines="1"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="1:"
+				android:id="@+id/lblLCD1"
+				android:layout_weight="0.04"
+				android:enabled="true"
+				android:focusableInTouchMode="false"
+				android:gravity="top"
+				android:singleLine="false"
+				android:fontFamily="courier new"
+				android:background="#ecfac7"
+				android:foreground="#000000"
+				android:minLines="1"
+				android:maxLines="1"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="0"
+				android:id="@+id/txtLCD1"
+				android:layout_weight="0.04"
+				android:enabled="true"
+				android:focusableInTouchMode="false"
+				android:gravity="top|right"
+				android:singleLine="false"
+				android:fontFamily="courier new"
+				android:background="#ecfac7"
+				android:foreground="#000000"
+				android:minLines="1"
+				android:maxLines="1"/>
+
+		</TableRow>
+
+	</TableLayout>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtInput"
+		android:layout_weight="0.04"
+		android:focusable="true"
+		android:maxLines="1"
+		android:lines="1"
+		android:minLines="1"
+		android:singleLine="true"
+		android:selectAllOnFocus="true"
+		android:inputType="text"
+		android:hint="command line"/>
+
+	<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.04">
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.04">
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="1/x\ny^x"
+				android:id="@+id/btnINV"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				style="?android:attr/buttonStyleInset"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:layout_margin="-5dp" />
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="SQRT\nX^2"
+				android:id="@+id/btnSQRT"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp" />
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="LOG\n10^x"
+				android:id="@+id/btnLOG"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp" />
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="LN\ne^x"
+				android:id="@+id/btnLN"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp" />
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="▲\n"
+				android:id="@+id/btnUP"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp" />
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="SHIFT\n"
+				android:id="@+id/btnFN"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				android:textColor="@android:color/holo_orange_light"
+				android:singleLine="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp" />
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.04">
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="SIN\nASIN"
+				android:id="@+id/btnSIN"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp" />
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="COS\nACOS"
+				android:id="@+id/btnCOS"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp" />
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="TAN\nATAN"
+				android:id="@+id/btnTAN"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp" />
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="EE\nFIX"
+				android:id="@+id/btnEE"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp" />
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="▼\n"
+				android:id="@+id/btnDOWN"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp" />
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="STO\nRCL"
+				android:id="@+id/btnSTO"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp" />
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.04">
+
+			<Button
+                style="?android:attr/buttonStyleInset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vars\nedit"
+                android:id="@+id/btnVARS"
+                android:layout_weight="0.04"
+                android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons" />
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="HEX\nBIN"
+				android:id="@+id/btnHEX"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:onClick="onClickButtons"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp" />
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="SWAP\nRAND"
+				android:id="@+id/btnSWAP"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+
+			android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="DROP\nLAST"
+				android:id="@+id/btnDROP"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="CE\nCLEAR"
+				android:id="@+id/btnCE"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="ENTER\nXEQ"
+				android:id="@+id/btnENTER"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickEnter"
+				android:textColor="@android:color/holo_blue_light"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.04">
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="RAD\nDEG"
+				android:id="@+id/btnRAD"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="DMS\nDDEC"
+				android:id="@+id/btnDMS"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="7\nP►R"
+				android:id="@+id/btnNUM7"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="8\nR►P"
+				android:id="@+id/btnNUM8"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="9\nπ"
+				android:id="@+id/btnNUM9"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="/\n"
+				android:id="@+id/btnDIV"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.04">
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="INT\nFRAC"
+				android:id="@+id/btnINT"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="TIME\nDATE"
+				android:id="@+id/btnTIME"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="4\ne"
+				android:id="@+id/btnNUM4"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="5\nF"
+				android:id="@+id/btnNUM5"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="6\n"
+				android:id="@+id/btnNUM6"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="*\n"
+				android:id="@+id/btnMUL"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.04">
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="BEEP\nTONE"
+				android:id="@+id/btnBEEP"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="LAT\nLON"
+				android:id="@+id/btnLAT"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="1\nB"
+				android:id="@+id/btnNUM1"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="2\nC"
+				android:id="@+id/btnNUM2"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="3\nD"
+				android:id="@+id/btnNUM3"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="-\n"
+				android:id="@+id/btnSUB"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.04">
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="{}\n[]"
+				android:id="@+id/btnCURLY"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="&apos;\n&quot;"
+				android:id="@+id/btnTICK"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="0\nA"
+				android:id="@+id/btnNUM0"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text=".\n,"
+				android:id="@+id/btnDOT"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="+/-\nabs"
+				android:id="@+id/btnCHS"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+			<Button
+				style="?android:attr/buttonStyleInset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="+\nSPC"
+				android:id="@+id/btnADD"
+				android:layout_weight="0.04"
+				android:focusable="false"
+				android:layout_margin="-5dp"
+				android:layout_marginBottom="-5dp"
+				android:layout_marginEnd="-5dp"
+				android:layout_marginLeft="-5dp"
+				android:layout_marginRight="-5dp"
+				android:layout_marginStart="-5dp"
+				android:layout_marginTop="-5dp"
+				android:onClick="onClickButtons"/>
+
+		</TableRow>
+
+	</TableLayout>
+
+</LinearLayout>
+

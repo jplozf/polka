@@ -1,0 +1,169 @@
+[
+    {
+        "outputFile": "/home/jpl/Dropbox/IT/Projets/android/Polka/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 16,
+                    "endOffset": 157
+                },
+                "from": {
+                    "file": "/home/jpl/Dropbox/IT/Projets/android/Polka/app/src/main/res/values/array.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 176,
+                        "endLine": 11,
+                        "endColumn": 16,
+                        "endOffset": 278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 162,
+                    "endLine": 11,
+                    "endColumn": 16,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "/home/jpl/Dropbox/IT/Projets/android/Polka/app/src/main/res/values/array.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 54,
+                        "endLine": 6,
+                        "endColumn": 16,
+                        "endOffset": 174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 287,
+                    "endLine": 17,
+                    "endColumn": 16,
+                    "endOffset": 405
+                },
+                "from": {
+                    "file": "/home/jpl/Dropbox/IT/Projets/android/Polka/app/src/main/res/values/array.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 428,
+                        "endLine": 23,
+                        "endColumn": 16,
+                        "endOffset": 546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 410,
+                    "endLine": 23,
+                    "endColumn": 16,
+                    "endOffset": 556
+                },
+                "from": {
+                    "file": "/home/jpl/Dropbox/IT/Projets/android/Polka/app/src/main/res/values/array.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 280,
+                        "endLine": 17,
+                        "endColumn": 16,
+                        "endOffset": 426
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 561,
+                    "endColumn": 42,
+                    "endOffset": 599
+                },
+                "from": {
+                    "file": "/home/jpl/Dropbox/IT/Projets/android/Polka/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 42,
+                        "endOffset": 94
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 604,
+                    "endColumn": 52,
+                    "endOffset": 652
+                },
+                "from": {
+                    "file": "/home/jpl/Dropbox/IT/Projets/android/Polka/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 99,
+                        "endColumn": 52,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 657,
+                    "endColumn": 46,
+                    "endOffset": 699
+                },
+                "from": {
+                    "file": "/home/jpl/Dropbox/IT/Projets/android/Polka/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 46,
+                        "endOffset": 194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 704,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 818
+                },
+                "from": {
+                    "file": "/home/jpl/Dropbox/IT/Projets/android/Polka/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 206
+                    }
+                }
+            }
+        ]
+    }
+]

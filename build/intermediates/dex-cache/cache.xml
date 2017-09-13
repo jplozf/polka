@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/jpl/Dropbox/IT/Projets/android/Polka/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b64b242dfd69a2cd6c926bdfb9fe346972437cb">
+        <dex dex="/home/jpl/Dropbox/IT/Projets/android/Polka/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8429199cf44392664567ae3be1680266361a5f6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jpl/Dropbox/IT/Projets/android/Polka/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/home/jpl/Dropbox/IT/Projets/android/Polka/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_da5025b822b4ce748cfb251e671969b9ff65c6e2/classes.dex" />
+    </item>
+
+</items>

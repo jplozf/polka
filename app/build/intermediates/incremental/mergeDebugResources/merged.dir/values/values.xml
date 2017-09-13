@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ang_codes">
+		<item>D</item> 
+		<item>R</item> 
+		<item>G</item> 
+	</string-array>
+    <string-array name="ang_names"> 
+		<item>Degrees</item> 
+		<item>Radians</item> 
+		<item>Grades</item> 
+	</string-array>
+    <string-array name="dsp_codes">
+		<item>D</item> 
+		<item>F</item> 
+		<item>E</item>
+		<item>S</item>
+	</string-array>
+    <string-array name="dsp_names"> 
+		<item>Standard</item> 
+		<item>Fixed</item> 
+		<item>Engineer</item>
+		<item>Scientific</item>
+	</string-array>
+    <string name="app_name">Polka</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lbl_menu_menu">Menu</string>
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

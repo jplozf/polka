@@ -3,5 +3,5 @@
 
     <string name="app_name">Polka</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="lbl_menu_menu">Menu</string>
 </resources>

@@ -1,0 +1,33 @@
+<PreferenceScreen 
+	xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <ListPreference 
+		android:key="lstAngles" 
+		android:title="Angles unit" 
+		android:summary="Click to open the list" 
+		android:entries="@array/ang_names" 
+		android:entryValues="@array/ang_codes" 
+		android:dialogTitle="Angles unit" /> 
+    <ListPreference 
+		android:key="lstDisplay" 
+		android:title="Numbers display mode"
+		android:summary="Click to open the list" 
+		android:entries="@array/dsp_names" 
+		android:entryValues="@array/dsp_codes" 
+		android:dialogTitle="Display mode" /> 
+	<EditTextPreference 
+		android:key="txtFixedNumber" 
+		android:title="Fixed number" 
+		android:summary="Click to enter" 
+		android:dialogTitle="Fixed number after decimal point"/>
+	<CheckBoxPreference
+		android:key="chkVibrate"
+		android:title="Vibrate on click"
+		android:defaultValue="true"
+		android:summary="Enable it for vibrate when click on buttons"/>
+	<CheckBoxPreference
+		android:key="chkStatusBar"
+		android:title="Status bar display"
+		android:defaultValue="true"
+		android:summary="Enable it to display status bar"/>
+</PreferenceScreen>
+
